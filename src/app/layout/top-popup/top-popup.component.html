@@ -1,0 +1,68 @@
+<div style="margin-top: 20px;z-index: 4501;">
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig" (init)="slickInit($event)"
+        (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)" (beforeChange)="beforeChange($event)">
+        <div ngxSlickItem *ngFor="let slide of [1, 2, 3,4,5]" class="slide">
+            <div class="col" style="margin: 10px;padding: 5px;">
+                <div class="row">
+                    <!-- <div class="col"><img style="width: 100%;" src="assets/images/products/{{slide}}.png" alt="">
+                    </div>
+                    <div class="col-2 round_div"> -->
+                        <!-- <div style="width:35px;border-radius: 50px;height: 35px;">
+                            <span class="material-icons">lock</span>
+                        </div> -->
+                        <div _ngcontent-ng-c94497035="" class="ProductItem">
+                            <div _ngcontent-ng-c94497035="" class="ProductItem__Wrapper"><a _ngcontent-ng-c94497035=""
+                                    aria-label="go to product"
+                                    class="ProductItem__ImageWrapper ProductItem__ImageWrapper--withAlternateImage">
+                                    <div _ngcontent-ng-c94497035="" class="AspectRatio AspectRatio--withFallback"
+                                        style="max-width: 1000px; padding-bottom: 100.0%; --aspect-ratio: 1.0;">
+                                        <img _ngcontent-ng-c94497035="" src="assets/images/products/{{slide}}.png">
+                                    </div>
+                                </a>
+                                
+                                <div _ngcontent-ng-c94497035="" class="ProductItem__Quickbuy">
+                                    <svg _ngcontent-ng-c94497035="" role="presentation" viewBox="0 0 17 20"
+                                        class="Icon Icon--cart whiteColor">
+                                        <path _ngcontent-ng-c94497035=""
+                                            d="M0 20V4.995l1 .006v.015l4-.002V4c0-2.484 1.274-4 3.5-4C10.518 0 12 1.48 12 4v1.012l5-.003v.985H1V19h15V6.005h1V20H0zM11 4.49C11 2.267 10.507 1 8.5 1 6.5 1 6 2.27 6 4.49V5l5-.002V4.49z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                <!-- <div>
+                    <h3>{{slide}}</h3>
+                </div> -->
+            </div>
+        </div>
+    </ngx-slick-carousel>
+    <div class="MegaMenu__Bottom">
+        <div class="MegaMenu__Nav">
+            <ul class="Linklist"><span class="MegaMenu__Title Text--subdued">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;" class="z">Chocolate bars:</font>
+                    </font>
+                </span>
+                <li class="Linklist__Item u-h3 Heading Link Link--underlineThick">
+
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;" class="uppCase TekoFont font27">
+                            Everyone bites
+                        </font>
+                    </font>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="MegaMenu__Filter">
+            <span class="MegaMenu__Title Text--subdued">
+                <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;" class="TekoFont font27">Filter by:</font>
+                </font>
+            </span>
+            <ul class="HorizontalList"></ul>
+        </div> -->
+    </div>
+</div>

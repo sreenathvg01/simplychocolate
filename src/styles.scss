@@ -1,1 +1,324 @@
-/* You can add global styles to this file, and also import other style files */
+// /* You can add global styles to this file, and also import other style files */
+
+
+// /* Importing Bootstrap SCSS file. */
+// :root {
+//     /*========== Colors ==========*/
+//     /*Color mode HSL(hue, saturation, lightness)*/
+//     --primary-color: rgb(0, 101, 224);
+//     --primary-color-light: rgb(0, 101, 224, 0.1);
+//     --title-color: rgb(0, 0, 0);
+//     --text-color: rgba(0, 0, 0, 0.5);
+//     --text-color-white: rgb(255, 255, 255);
+//     --body-color: rgb(245, 247, 255);
+//     --sidebar_bg-color: #fff;
+//     --btn_primary_shadow: rgb(0, 101, 224, 0.5) 0 1px 30px;
+
+//     /*========== Font and typography ==========*/
+//     --body-font: Poppins;
+//     --normal-font-size: 14px;
+// }
+
+// /* Responsive typography */
+// /* @media screen and (min-width: 968px) {
+// 	:root {
+// 	  --normal-font-size: 1rem;
+// 	}
+//   } */
+
+// /*=============== BASE ===============*/
+// * {
+//     box-sizing: border-box;
+//     padding: 0;
+//     margin: 0;
+// }
+
+// body {
+//     position: relative;
+//     font-family: var(--body-font);
+//     font-size: var(--normal-font-size);
+//     background-color: var(--body-color);
+//     color: var(--text-color);
+//     margin-bottom: auto !important
+// }
+
+
+// a {
+//     text-decoration: none;
+// }
+
+// /* Firefox */
+// * {
+//     scrollbar-width: thin;
+//     scrollbar-color: #989898 #DFE9EB;
+// }
+
+// /* Chrome, Edge and Safari */
+// *::-webkit-scrollbar {
+//     width: 3px;
+//     width: 3px;
+// }
+
+// //   *::-webkit-scrollbar-track {
+// // 	border-radius: 5px;
+// // 	background-color: #DFE9EB;
+// //   }
+
+// //   *::-webkit-scrollbar-track:hover {
+// // 	background-color: #B8C0C2;
+// //   }
+
+// //   *::-webkit-scrollbar-track:active {
+// // 	background-color: #B8C0C2;
+// //   }
+
+// //   *::-webkit-scrollbar-thumb {
+// // 	border-radius: 6px;
+// // 	background-color: #989898;
+// //   }
+
+// //   *::-webkit-scrollbar-thumb:hover {
+// // 	background-color: #0065E0;
+// //   }
+
+// //   *::-webkit-scrollbar-thumb:active {
+// // 	background-color: #0065E0;
+// //   }
+
+@import 'bootstrap/scss/bootstrap';
+
+.footer_props {
+    background-color: black;
+    font-family: Century Gothic;
+}
+
+.footer_head_txt {
+    font-size: 25px;
+    font-weight: 900;
+    color: #FFFF;
+}
+
+.white_color {
+    color: #FFFF;
+
+    font-weight: 600;
+}
+
+.white_color_only {
+    color: #FFFF;
+}
+
+.linespace_med {
+    line-height: 2.6;
+}
+
+.linespace_small {
+    line-height: 1.6;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.container {
+    border-bottom-color: coral !important;
+}
+
+.socioGothic {
+    font-family: "Social-Gothic" !important;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.socioGothiconly {
+    font-family: "Social-Gothic" !important;
+}
+
+.alRight {
+    text-align: right;
+}
+
+.font36 {
+    font-size: 36px !important;
+
+}
+
+.font27 {
+    font-size: 27px !important;
+
+}
+
+.one_small_choco_div {
+    background-color: #f1f1f1;
+    ;
+}
+
+.LibreBaskerville {
+    font-family: "Libre Baskerville", serif !important;
+}
+
+// .SectionHeader__Heading {
+//     position: relative;
+//     top: 301px;
+//     left: 370px;
+//     color: #FFF;
+// }
+
+.round_div div {
+    border-style: groove;
+}
+
+.Century_Gothic {
+    font-family: "Century Gothic", sans-serif;
+
+}
+
+.fW800 {
+    font-weight: 800;
+}
+
+.fz12 {
+    font-size: 12px;
+}
+
+.alCenter {
+    text-align: center;
+}
+
+.subhead {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.premiumBg {
+    background: linear-gradient(to right, #954e20 0%, #be6429 100%);
+}
+
+.mTop10 {
+    margin-top: 10px;
+}
+
+.underline {
+    margin-top: 2px;
+    text-decoration: underline;
+}
+
+.topheader_items {
+    // position: relative;
+    // top: 301px;
+    // left: 370px;
+    color: #FFF;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.hand {
+    cursor: pointer !important;
+}
+
+.fz20 {
+    font-size: 19px !important;
+}
+
+.TekoFont {
+    font-family: 'TEKO' !important;
+
+}
+.uppCase{
+    text-transform: uppercase !important;
+
+}
+.fz16 {
+    font-size: 16px !important;
+}
+.fz25{
+    font-size: 25px !important;
+}
+.whiteColor{
+    color: #fff !important;
+
+}
+
+// .basketItem {
+
+//     width: 45px;
+//     height: 41px;
+//     display: inline-flex;
+//     align-items: center;
+//     justify-content: center;
+//     border: 1px solid currentColor;
+//     border-radius: 50%;
+//     font-size: 14px;
+//     margin-left: 8px;
+//     padding-top: 6px;
+//     line-height: 1;
+//     margin-top: -5px;
+
+
+// }
+// .slider {
+// 	position: absolute;
+// 	cursor: pointer;
+// 	top: 0;
+// 	left: 0;
+// 	right: 0;
+// 	bottom: 0;
+// 	background-color: #ccc;
+// 	-webkit-transition: .4s;
+// 	transition: .4s;
+// }
+
+// .slider:before {
+// 	position: absolute;
+// 	content: "";
+// 	height: 20px;
+// 	width: 20px;
+// 	left: 1px;
+// 	bottom: 2px;
+// 	background-color: white;
+// 	-webkit-transition: .4s;
+// 	transition: .4s;
+// }
+
+// input:checked+.slider {
+// 	background-color: #DF253B;
+// }
+
+// input:focus+.slider {
+// 	box-shadow: none;
+// }
+
+// input:checked+.slider:before {
+// 	-webkit-transform: translateX(26px);
+// 	-ms-transform: translateX(26px);
+// 	transform: translateX(26px);
+// }
+
+// /* Rounded sliders */
+// .slider.round {
+// 	border-radius: 34px;
+// }
+
+// .slider.round:before {
+// 	border-radius: 50%;
+// }
+
+.fwmax {
+    font-weight: 900;
+    font-family: 'Teko', sans-serif !important;
+}

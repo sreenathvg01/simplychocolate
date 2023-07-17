@@ -27,20 +27,44 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/images",
+              "src/assets/js",
+              "src/assets/fonts",
+              "src/assets/fonts/Social-Gothicb96c.woff2",
+              "src/assets/cdn",
+              "src/assets/cdn/fonts",
+              "src/assets/cdn/fonts/century_gothic",
+              "src/assets/cdn/fonts/libre_baskerville",
+              "src/assets/cdn/shop",
+              "src/assets/cdn/shop/files",
+              "src/assets/cdn/shop/t/65/assets",
+              "src/assets/cdn/shopifycloud/boomerang",
+              "src/assets/cdn/shopifycloud/shopify/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+              "./node_modules/slick-carousel/slick/slick.scss",
+              "./node_modules/slick-carousel/slick/slick-theme.scss",
+              "src/assets/cdn/shop/t/65/assets/critical.scss817c.css",
+              "src/assets/cdn/shop/t/65/assets/theme.scssbf4f.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/jquery-ui-dist/jquery-ui.min.js",
+              "node_modules/slick-carousel/slick/slick.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -90,15 +114,39 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/images",
+              "src/assets/js",
+              "src/assets/fonts",
+              "src/assets/fonts/Social-Gothicb96c.woff2",
+              "src/assets/cdn",
+              "src/assets/cdn/fonts",
+              "src/assets/cdn/fonts/century_gothic",
+              "src/assets/cdn/fonts/libre_baskerville",
+              "src/assets/cdn/shop",
+              "src/assets/cdn/shop/files",
+              "src/assets/cdn/shop/t/65/assets",
+              "src/assets/cdn/shopifycloud/boomerang",
+              "src/assets/cdn/shopifycloud/shopify/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.scss",
+              "./node_modules/slick-carousel/slick/slick.scss",
+              "./node_modules/slick-carousel/slick/slick-theme.scss",
+              "src/assets/cdn/shop/t/65/assets/critical.scss817c.css",
+              "src/assets/cdn/shop/t/65/assets/theme.scssbf4f.css"
             ],
-            "scripts": []
+            "scripts": [ "node_modules/jquery/dist/jquery.min.js",
+            "node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "node_modules/jquery-ui-dist/jquery-ui.min.js",
+            "node_modules/slick-carousel/slick/slick.min.js","src/assets/js/main.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

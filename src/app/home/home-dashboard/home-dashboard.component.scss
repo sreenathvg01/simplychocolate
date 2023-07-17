@@ -1,0 +1,90 @@
+.tab-container {
+	margin: 5% 10%;
+	background-color: #c1e3d9;
+	padding: 3%;
+	border-radius: 4px;
+}
+
+.tab-menu {}
+
+.tab-menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.tab-menu ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.tab-menu ul li a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.4);
+	background-color: #b4cbc4;
+	padding: 7px 25px;
+	border-radius: 4px;
+}
+
+.tab-menu ul li a.active-a {
+	background-color: #588d7d;
+	color: #ffffff;
+}
+
+.tab {
+	display: none;
+}
+
+.tab h2 {
+	color: rgba(0, 0, 0, .7);
+}
+
+.tab p {
+	color: rgba(0, 0, 0, 0.6);
+	text-align: justify;
+}
+
+.tab-active {
+	display: block;
+}
+
+#slide-nav {
+	position: absolute;
+	right: 0px;
+	border: 1px solid black;
+	width: 350px;
+	// height: 500px;
+}
+
+.fz20 {
+	font-size: 19px !important;
+}
+
+.TekoFont {
+	font-family: 'TEKO' !important;
+
+}
+
+.fz16 {
+	font-size: 16px !important;
+}
+
+.offcanvas,
+.offcanvas-xxl,
+.offcanvas-xl,
+.offcanvas-lg,
+.offcanvas-md,
+.offcanvas-sm {
+	--bs-offcanvas-width: 430px !important;
+
+}
+
+.footerhome {
+	position: fixed;
+	bottom: 0px;
+	// background-color: pink;
+	width: 100%;
+	z-index: 1000;
+
+}
+
+

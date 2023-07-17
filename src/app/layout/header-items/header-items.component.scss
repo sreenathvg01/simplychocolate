@@ -1,0 +1,41 @@
+.middle{
+    position: relative;
+    top: 350px;
+    // left: 225px
+
+}
+.shopChoco{
+    padding: 10px;
+    background: #FFF;
+    width: 32%;
+    color: #101010;
+    border-radius: 10px;
+    margin:auto;
+}
+#ext{
+    position: fixed;
+}
+.hand{
+    cursor: pointer !important;
+}
+.fz20{
+	font-size: 19px !important;
+  }
+  .TekoFont{
+	font-family: 'TEKO' !important;
+
+  }
+  .fz16{
+	font-size: 16px !important;
+  }
+  .ui-widget-overlay{
+    top: unset !important;
+  }
+  .ui-widget-content{
+    top: 258.988px;
+left: 131.5px !important;width:80% !important;
+
+  }
+  ngb-modal-window {
+    z-index: 5001 !important;
+  }
